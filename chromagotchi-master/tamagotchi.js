@@ -16,31 +16,31 @@
             //check if happy
             if (save["happiness"] >= 81)
             {
-                document.getElementById("happy-tamagotchi").style.visibility = "visible";
-                document.getElementById("normal-tamagotchi").style.visibility = "hidden";
-                document.getElementById("dead-tamagotchi").style.visibility = "hidden";
-                document.getElementById("crying-tamagotchi").style.visibility = "hidden";
+                document.getElementById("happy-panda").style.visibility = "visible";
+                document.getElementById("normal-panda").style.visibility = "hidden";
+                document.getElementById("dead-panda").style.visibility = "hidden";
+                document.getElementById("crying-panda").style.visibility = "hidden";
             }
             else if ((save["happiness"] >= 1 && save["happiness"]<=20) || (save["thirst"] >= 1 && save["thirst"]<=20) || (save["hunger"] >= 1 && save["hunger"]<=20)){
-                document.getElementById("happy-tamagotchi").style.visibility = "hidden";
-                document.getElementById("normal-tamagotchi").style.visibility = "hidden";
-                document.getElementById("dead-tamagotchi").style.visibility = "hidden";
-                document.getElementById("crying-tamagotchi").style.visibility = "visible";
+                document.getElementById("happy-panda").style.visibility = "hidden";
+                document.getElementById("normal-panda").style.visibility = "hidden";
+                document.getElementById("dead-panda").style.visibility = "hidden";
+                document.getElementById("crying-panda").style.visibility = "visible";
             }
             else
             {
-                document.getElementById("happy-tamagotchi").style.visibility = "hidden";
-                document.getElementById("normal-tamagotchi").style.visibility = "visible";
-                document.getElementById("dead-tamagotchi").style.visibility = "hidden";
-                document.getElementById("crying-tamagotchi").style.visibility = "hidden";
+                document.getElementById("happy-panda").style.visibility = "hidden";
+                document.getElementById("normal-panda").style.visibility = "visible";
+                document.getElementById("dead-panda").style.visibility = "hidden";
+                document.getElementById("crying-panda").style.visibility = "hidden";
             }
         }
         else
         {
-            document.getElementById("happy-tamagotchi").style.visibility = "hidden";
-            document.getElementById("normal-tamagotchi").style.visibility = "hidden";
-            document.getElementById("dead-tamagotchi").style.visibility = "visible";
-            document.getElementById("crying-tamagotchi").style.visibility = "hidden";
+            document.getElementById("happy-panda").style.visibility = "hidden";
+            document.getElementById("normal-panda").style.visibility = "hidden";
+            document.getElementById("dead-panda").style.visibility = "visible";
+            document.getElementById("crying-panda").style.visibility = "hidden";
         }
         
         window.setTimeout(updatestats, 1000);

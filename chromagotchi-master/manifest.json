@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Tamagotchi",
-  "description": "A Tamagotchi That Lives In Your Chrome Browser!",
+  "name": "MyPandaPal",
+  "description": "Take Care of Your Panda as Your Own!",
   "version": "1.0",
 
   "browser_action": {
