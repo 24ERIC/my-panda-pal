@@ -164,7 +164,7 @@ function pet_feed(){
 function pet_drink(){
     if (stats == true){
         petStatus();
-    thirst += 20;
+    thirst += 40;
     alerted = false;
     if (thirst >= 100){
         thirst = 100;
@@ -176,7 +176,7 @@ function pet_drink(){
 function pet_exercise(){
     if (stats == true){
         petStatus();
-        happiness += 3;
+        happiness += 30;
         alerted = false;
         if (happiness >= 100){
             happiness = 100;
